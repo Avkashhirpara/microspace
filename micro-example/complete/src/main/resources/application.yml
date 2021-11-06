@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: complete
+  static-resources:
+    swagger:
+      paths: classpath:META-INF/swagger
+      mapping: /swagger/**
